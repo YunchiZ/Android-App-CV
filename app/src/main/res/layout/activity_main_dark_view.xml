@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="194dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="464dp"
+        android:layout_marginEnd="8dp"
+        android:text="Play against an AI, guess what object is missing and where it was taken from"
+        android:textColor="#F4EFEF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toEndOf="@+id/continueButton"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:fontFamily="@font/roboto_condensed_regular" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="194dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="556dp"
+        android:layout_marginEnd="4dp"
+        android:text="brief of the game,Introduces the audience of the game"
+        android:textColor="#F4EFEF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toEndOf="@+id/continueButton"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:fontFamily="@font/roboto_condensed_regular" />
+
+    <Button
+        android:id="@+id/challenge"
+        android:layout_width="143dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="212dp"
+        android:background="@drawable/button_dark"
+        android:text="CHALLENGE"
+        android:textColor="#F6F6F6"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/explanation"
+        android:layout_width="172dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="124dp"
+        android:background="@drawable/button_dark"
+        android:text="explanation"
+        android:textColor="#F6F6F6"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/classic4"
+        android:layout_width="143dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/button_dark"
+        android:text="Classic"
+        android:textColor="#FFFDFD"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/challenge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title6"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="194dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="4dp"
+        android:text="Guess what object is missing, gain extra points for correctly guessing where it was taken from"
+        android:textColor="#F4F4F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toEndOf="@+id/continueButton"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:fontFamily="@font/roboto_condensed_regular" />
+
+    <TextView
+        android:id="@+id/title6"
+        android:layout_width="340dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="What's \nMissing?"
+        android:textColor="#FBF9F9"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/continueButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/setting7"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_setting_white" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="224dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="MENU"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/how_to_play7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="HOW TO PLAY"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

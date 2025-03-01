@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/closeButton"
+        android:layout_width="322dp"
+        android:layout_height="215dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/pop_up"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/restartButton"
+            android:layout_width="113dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="44dp"
+            android:background="@drawable/explanation_bg"
+            app:backgroundTint="@null"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:letterSpacing="0"
+            android:text="@string/restart"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeButton"
+            app:layout_constraintVertical_bias="0.973" />
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="113dp"
+            android:layout_height="48dp"
+            android:background="@drawable/explanation_bg"
+            app:backgroundTint="@null"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:letterSpacing="0"
+            android:text="@string/menu"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.257" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

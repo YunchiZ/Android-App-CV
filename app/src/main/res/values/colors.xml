@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="into_purple">#DAE4FF</color>
+    <color name="intro_pink">#FD9EFF</color>
+    <color name="intro_blue">#7CC8FF</color>
+    <color name="notif_purple">#E6DCFC</color>
+
+<!--    <color name="colorPrimary">#60C689</color>-->
+<!--    <color name="colorPrimary">#FFFFFF</color>-->
+<!--&lt;!&ndash;    <color name="colorPrimaryDark">#3a7752</color>&ndash;&gt;-->
+<!--    <color name="colorPrimaryDark">#0060AC</color>-->
+<!--    <color name="colorAccent">#0285FA</color>-->
+<!--    <color name="textColor">#000000</color>-->
+<!--    <color name="buttonTextColor">#FFFFFF</color>-->
+<!--    <color name="descriptionColor"></color>-->
+<!--    <color name="popUpColor">#414040</color>-->
+
+<!--    <color name="backgroundColor">#FFFFFF</color>-->
+<!--    <color name="buttonColor">#2196F3</color>-->
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <!--    <color name="colorPrimaryDark">#3a7752</color>-->
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="textColor">#000000</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="descriptionColor"></color>
+    <color name="popUpColor">#414040</color>
+
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="buttonColor">#000000</color>
+</resources>

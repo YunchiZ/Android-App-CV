@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="315dp"
+        android:layout_height="286dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/pop_up"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="113dp"
+            android:layout_height="48dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:letterSpacing="0"
+            android:text="@string/save"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.852" />
+
+        <Switch
+            android:id="@+id/blurSwitch"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/comfortaa"
+            android:textOn="@string/on"
+            android:textOff="@string/off"
+            android:textColor="@color/textColor"
+            android:checked="true"
+            app:layout_constraintStart_toEndOf="@+id/blur"
+            app:layout_constraintTop_toBottomOf="@+id/settingsTitle"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <Switch
+            android:id="@+id/blankSwitch"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="208dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/comfortaa"
+            android:textOff="@string/off"
+            android:textOn="@string/on"
+            android:textColor="@color/textColor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/blurSwitch"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <TextView
+            android:id="@+id/blur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/comfortaa"
+            android:text="@string/blur"
+            android:textColor="@color/textColor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/settingsTitle" />
+
+        <TextView
+            android:id="@+id/blank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/comfortaa"
+            android:text="@string/blank"
+            android:textColor="@color/textColor"
+            app:layout_constraintBottom_toTopOf="@+id/saveButton"
+            app:layout_constraintEnd_toStartOf="@+id/blankSwitch"
+            app:layout_constraintHorizontal_bias="0.351"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/blur"
+            app:layout_constraintVertical_bias="0.2" />
+
+        <TextView
+            android:id="@+id/settingsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="32sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.09" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

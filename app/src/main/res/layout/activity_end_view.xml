@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.team13.whatsmissing.EndController"
+    android:background="@color/backgroundColor">
+
+    <Button
+        android:id="@+id/end_menu"
+        android:layout_width="145dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/button_bg"
+        android:padding="17dp"
+        android:text="@string/menu"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="148dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/button_bg"
+        android:padding="17dp"
+        android:text="@string/restart"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423" />
+
+    <ImageButton
+        android:id="@+id/setting6"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_settings_24" />
+
+    <Button
+        android:id="@+id/menu8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="224dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="@string/menu"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/how_to_play6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="@string/howToPlay"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

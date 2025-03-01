@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <color name="colorPrimary">#60C689</color>-->
+    <color android:name="colorPrimary" tools:ignore="ExtraText">#000000</color>
+<!--    <color name="colorPrimaryDark">#3a7752</color>-->
+    <color android:name="colorPrimaryDark">#0060AC</color>
+    <color android:name="colorAccent">#0285FA</color>
+    <color android:name="textColor">#000000</color>
+    <color android:name="buttonColor">#FF9ECBF3</color>
+
+    <color android:name="backgroundColor">#393939</color>
+</resources>

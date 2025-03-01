@@ -1,0 +1,77 @@
+<resources>
+    <!-- Strings used for home fragment -->
+    <string name="app_name">What\'s Missing?</string>
+    <string name="classic_description">Guess what object is missing</string>
+    <string name="challenge_description">Play against an AI, guess what object is missing and where it was taken from</string>
+    <string name="explanation_caption">What is this game about</string>
+    <string name="classic">Classic</string>
+    <string name="challenge">Challenge</string>
+    <string name="explanation">explanation</string>
+
+    <!-- Strings used for picture capture fragment -->
+    <string name="camera_prompt_1">Take a picture of some objects!</string>
+    <string name="camera_prompt_2">Now remove some objects and take another picture!</string>
+    <string name="output_file_name">output</string>
+    <string name="processed_file_name">processed_file</string>
+    <string name="takeAnotherPicture">📸Take another picture</string>
+    <string name="removeObjects">Remove some objects</string>
+    <string name="takePicture">📸 Take a picture of some objects …</string>
+    <string name="turn">Player, turnaround! </string>
+
+    <!-- Strings used for game fragment -->
+    <string name="enterWhatsMissing">ENTER WHATS MISSING</string>
+    <string name="life">life</string>
+    <string name="objects">objects</string>
+    <string name="wrong">Wrong Answer</string>
+    <string name="submit">Submit</string>
+    <string name="correct">Correct Answer</string>
+    <string name="send">➤</string>
+
+    <!-- Strings used for navigation buttons -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="restart">Restart</string>
+    <string name="settings">Settings</string>
+    <string name="menu">MENU</string>
+    <string name="close">Close</string>
+
+    <!-- Strings used for settings popup -->
+    <string name="blur">Blurred Out Image</string>
+    <string name="blank">Blanked Out Image</string>
+    <string name="save">SAVE</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+
+    <!-- Strings used for introduction fragment -->
+    <string name="gameDescription">What is The Game About?</string>
+    <string name="skipIntro">skip introduction</string>
+    <string name="gameExplanation">The game is based off of the children’s game, where a few objects are placed on a surface and the children are asked to look at the objects. They then turnaround or cover their eyes, as an item is taken away.  \n\n When they open their eyes, they are asked to guess what item was taken away.</string>
+
+    <string name="howToPlay">How To Play</string>
+    <!-- Strings from the tutorial page
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="htp_5">Enter where the item was taken from</string>
+    <string name="htp_4">Enter the name of what is missing</string>
+    <string name="htp_3">Take Another Picture</string>
+    <string name="htp_2">Remove an Item</string>
+    <string name="htp_1">Take a Picture of objects</string>-->
+
+    <!--Strings from the pop ups-->
+    <string name="howToPlayClassicTut">📸 Take a picture of some objects
+❌ Blur an item
+⁇ Select <b>what’s missing</b> from 4 options
+</string>
+    <string name="howToPlayChallengeTut">📸 Take a picture of some objects
+❌ Blur an item
+⁇ Enter what’s missing
+</string>
+    <string name="cont">continue</string>
+    <string name="wellDone">Well Done</string>
+    <string name="tryAgain">Try Again</string>
+
+</resources>

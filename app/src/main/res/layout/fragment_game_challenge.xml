@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image6"
+        android:layout_width="364dp"
+        android:layout_height="440dp"
+        android:layout_marginBottom="33dp"
+        android:outlineAmbientShadowColor="#835050"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title2"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/title9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="138dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/app_name"
+        android:textColor="@color/colorAccent"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <EditText
+        android:id="@+id/answertext"
+        android:layout_width="244dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="72dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:hint="@string/enterWhatsMissing"
+        android:inputType="textPersonName"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toTopOf="@+id/image6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title9"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="76dp"
+        android:layout_height="44dp"
+        android:background="@drawable/gamebutton_bg"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/send"
+        android:textAlignment="center"
+        android:textColor="@color/backgroundColor"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/image6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/answertext"
+        app:layout_constraintTop_toBottomOf="@+id/title9"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
